@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "removeComments": false,
+        "noLib": false
+    },
+	"filesGlob": [
+		"src/*.ts",
+        "test/*.ts"
+	],
+	"exclude": [
+        "node_modules"
+    ]
+}
